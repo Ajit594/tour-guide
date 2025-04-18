@@ -2,7 +2,7 @@ import Header3 from "@/components/header/header-3";
 import Hero3 from "@/components/hero/hero-3";
 import TopDestinations from "@/components/destinations/TopDestinations";
 import Hotels from "@/components/hotels/Hotels2";
-import { Link } from "react-router-dom";g
+import { Link } from "react-router-dom";
 import Tours from "@/components/tours/Tours";
 import Activity from "@/components/activity/Activity";
 import Rentals from "@/components/rentals/Rentals";
@@ -16,8 +16,8 @@ import WhyChoose from "@/components/home/home-3/WhyChoose";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Home-3 || GoTrip - Travel & Tour ReactJs Template",
-  description: "GoTrip - Travel & Tour ReactJs Template",
+  title: "Home || tour - Travel & Tour ReactJs",
+  description: "Home || tour - Travel & Tour ReactJs",
 };
 
 const Home_3 = () => {
