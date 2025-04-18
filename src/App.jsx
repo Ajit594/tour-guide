@@ -17,16 +17,7 @@ if (typeof window !== "undefined") {
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollTopBehaviour from "./components/common/ScrollTopBehaviour";
 import Home from "./pages";
-import Home_1 from "./pages/homes/home_1";
-import Home_2 from "./pages/homes/home_2";
 import Home_3 from "./pages/homes/home_3";
-import Home_4 from "./pages/homes/home_4";
-import Home_5 from "./pages/homes/home_5";
-import Home_6 from "./pages/homes/home_6";
-import Home_7 from "./pages/homes/home_7";
-import Home_8 from "./pages/homes/home_8";
-import Home_9 from "./pages/homes/home_9";
-import Home_10 from "./pages/homes/home_10";
 import BlogListV1 from "./pages/blogs/blog-list-v1";
 import BlogListV2 from "./pages/blogs/blog-list-v2";
 import BlogSingleDynamic from "./pages/blogs/blog-details";
@@ -93,17 +84,8 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/">
-              <Route index element={<Home />} />
-              <Route path="home_1" element={<Home_1 />} />
-              <Route path="home_2" element={<Home_2 />} />
+              <Route index element={<Home_3 />} />
               <Route path="home_3" element={<Home_3 />} />
-              <Route path="home_4" element={<Home_4 />} />
-              <Route path="home_5" element={<Home_5 />} />
-              <Route path="home_6" element={<Home_6 />} />
-              <Route path="home_7" element={<Home_7 />} />
-              <Route path="home_8" element={<Home_8 />} />
-              <Route path="home_9" element={<Home_9 />} />
-              <Route path="home_10" element={<Home_10 />} />
 
               <Route path="blog-list-v1" element={<BlogListV1 />} />
               <Route path="blog-list-v2" element={<BlogListV2 />} />
